@@ -32,35 +32,42 @@ header {
 #logo {
   float: left;
   width: 250px;
-  height: 90px;
+  height: 80px;
   font-size: 50px;
   font-weight: 500;
   text-align: center;
   text-decoration: none;
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTNFN2za2J5PTxUCf5sDi2YvKoHyu3J9o6Ahvtep4C_d4GJP5NI&usqp=CAU);
-  line-height: 90px;
+  line-height: 70px;
   color: orange;
   text-shadow: 3px 3px black;
   border-radius: 15px;
   border: 2px double black;
+  margin-bottom: 5px;
 }
-
 nav {
-  float: right;
-  margin-top: 25px;
-  font-size: 24px;
+  font-size: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 nav a {
   padding-left: 15px;
   padding-right: 15px;
-  margin-left: 15px;
   line-height: 30px;
   color: orange;
   text-shadow: 2px 2px black;
   border-radius: 7px;
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTNFN2za2J5PTxUCf5sDi2YvKoHyu3J9o6Ahvtep4C_d4GJP5NI&usqp=CAU);
   text-decoration: none;
+}
+
+#navbar{
+    float: right;
+    font-size: 25px;
+    /* margin-top: 15px; */
+    
+  
 }
 
 #navbar:hover {
@@ -73,15 +80,15 @@ nav a:first-child {
   border-left: 0 none;
 }
 .main-section {
-  padding-top: 100px;
+  padding-top: 40px;
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTNFN2za2J5PTxUCf5sDi2YvKoHyu3J9o6Ahvtep4C_d4GJP5NI&usqp=CAU);
   width: 100%;
   border-radius: 7px;
   border: 3px double black;
 }
 
-#main-container{
-  padding-top:200px;
+#main-container{ 
+  padding-top:120px;
   }
 
 form {
@@ -104,6 +111,7 @@ form {
 
 #contact {
   text-align: center;
+  
   }
 
 input,
@@ -117,6 +125,8 @@ textarea {
   border-radius: 7px;
   background-color: orange;
   color: black;
+  padding-left:100px;
+  padding-right: 100px
 }
 
  .projects {
@@ -200,10 +210,16 @@ textarea {
   padding-right: 50px;
 }
 
-h3 {
+h3{
   color: black;
   text-shadow: 2px 2px orange;
 }
+
+h6{
+  color: black;
+  text-shadow: 2px 2px orange;
+}
+
 .impt {
   border-radius: 7px;
 }
